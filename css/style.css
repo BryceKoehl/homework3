@@ -51,14 +51,14 @@ footer {
     color: white; }
 
 .home-hero {
-  background-image: url(../../images/oregon-trail-feature.png);
+  background-image: url(../images/oregon-trail-feature.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 1000px; }
 
 .IndependenceHero {
-  background-image: url(../../images/Screenshot-4.png);
+  background-image: url(../images/Screenshot-4.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -69,21 +69,21 @@ footer {
   height: 50px; }
 
 .store-hero {
-  background-image: url(../../images/Screenshot-2.png);
+  background-image: url(../images/Screenshot-2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 1000px; }
 
 .journey-hero {
-  background-image: url(../../images/Screenshot-5.png);
+  background-image: url(../images/Screenshot-5.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 1000px; }
 
 .end-hero {
-  background-image: url(../../images/you-made-it.png);
+  background-image: url(../images/you-made-it.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

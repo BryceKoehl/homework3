@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+.navPad {
+  height: 50px; }
+
+@font-face {
+  font-family: Oregon;
+  src: url(../css/pixel-cowboy-font/PixelCowboy-l7we.ttf); }
+
+nav {
+  height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  nav a {
+    font-family: Oregon;
+    text-decoration: none;
+    color: white;
+    text-align: center; }
+
+.nav {
+  height: 0px; }
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 25px;
+  background-color: #5a6b61;
+  opacity: 0.9;
+  display: flex; }
+  footer p {
+    margin: auto;
+    color: white; }
+
+.home-hero {
+  background-image: url(../../images/oregon-trail-feature.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px; }
+
+.IndependenceHero {
+  background-image: url(../../images/Screenshot-4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  margin-top: px; }
+
+.navPad {
+  height: 50px; }
+
+.store-hero {
+  background-image: url(../../images/Screenshot-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px; }
+
+.journey-hero {
+  background-image: url(../../images/Screenshot-5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px; }
+
+.end-hero {
+  background-image: url(../../images/you-made-it.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px; }

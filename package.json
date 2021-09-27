@@ -1,0 +1,21 @@
+{
+  "name": "ifthismotherfuckingappdoesnotworkimamsuingtodd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {
+    "compile:sass": "node-sass scss/styles.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC"
+}

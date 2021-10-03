@@ -55,15 +55,16 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 1000px; }
+  height: 100%;
+  width: 100%; }
 
 .IndependenceHero {
-  background-image: url(../images/Screenshot-4.png);
+  background-image: url(../images/you-made-it.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 1000px;
-  margin-top: px; }
+  height: 100%;
+  width: 100%; }
 
 .navPad {
   height: 50px; }
@@ -88,3 +89,59 @@ footer {
   background-position: center;
   background-size: cover;
   height: 1000px; }
+
+.modal {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: "../images/oregon-trail-feature.png";
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.bg-click {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: "../images/oregon-trail-feature.png"; }
+
+.callout {
+  position: relative;
+  z-index: 99;
+  width: 600px;
+  height: 400px;
+  background-color: black; }
+
+.login {
+  display: block;
+  width: 200px; }
+  .login h1 {
+    position: relative;
+    left: 230px;
+    font-family: Oregon;
+    font-size: 60px;
+    color: white; }
+  .login label {
+    position: relative;
+    left: 100px;
+    font-family: Oregon;
+    font-size: 30px;
+    color: white; }
+  .login input {
+    position: relative;
+    left: 200px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 20px; }
+  .login #submit {
+    font-family: Oregon;
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px; }

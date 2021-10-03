@@ -69,10 +69,11 @@ footer p {
 }
 
 .home-hero {
-  background-image: url(../images/oregon-trail-feature.png);
+  margin-top: 50px;
+  background-image: url(../images/download.jpeg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
   height: 1000px;
 }
 
@@ -80,28 +81,23 @@ footer p {
   background-image: url(../images/Screenshot-4.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  height: 1000px;
-  margin-top: px;
-}
-
-.navPad {
-  height: 50px;
+  background-size: 100% 100%;
+  height: 1150px;
 }
 
 .store-hero {
   background-image: url(../images/Screenshot-2.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  height: 1000px;
+  background-size: 100% 100%;
+  height: 1150px;
 }
 
 .journey-hero {
   background-image: url(../images/Screenshot-5.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
   height: 1000px;
 }
 
@@ -111,4 +107,75 @@ footer p {
   background-position: center;
   background-size: cover;
   height: 1000px;
+}
+
+.modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.bg-click {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.callout {
+  position: relative;
+  z-index: 99;
+  width: 600px;
+  height: 400px;
+  background-color: black;
+}
+
+.login {
+  display: block;
+  width: 200px;
+}
+.login h1 {
+  position: relative;
+  left: 230px;
+  font-family: Oregon;
+  font-size: 60px;
+  color: white;
+}
+.login label {
+  position: relative;
+  left: 100px;
+  font-family: Oregon;
+  font-size: 30px;
+  color: white;
+}
+.login input {
+  position: relative;
+  left: 200px;
+  margin-top: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  padding: 10px 20px;
+}
+.login #submit {
+  font-family: Oregon;
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
 }
